@@ -4,7 +4,7 @@ import Hero from './components/Hero'
 
 function App() {
   return (
-    <div className='h-full'>
+    <div className='h-full min-h-[150dvh] bg-black'>
     <Header/>
     <Hero/>
     <Hero/>

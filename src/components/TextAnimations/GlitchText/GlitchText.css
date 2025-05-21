@@ -4,7 +4,7 @@
 
 .glitch {
   color: #fff;
-  font-size: clamp(1rem, 5vw, 4rem);
+  font-size: clamp(0.75rem, 2.3vw, 3.5rem);
   font-weight: 900;
   position: relative;
   white-space: nowrap;
@@ -19,19 +19,19 @@
   position: absolute;
   top: 0;
   color: #fff;
-  background-color: #242424;
+  background-color: #000000;
   overflow: hidden;
   clip-path: inset(0 0 0 0);
 }
 
 .glitch:not(.enable-on-hover)::after {
   left: 10px;
-  text-shadow: var(--after-shadow, -10px 0 red);
+  text-shadow: var(--after-shadow, -10px 0 rgb(87, 14, 109));
   animation: animate-glitch var(--after-duration, 3s) infinite linear alternate-reverse;
 }
 .glitch:not(.enable-on-hover)::before {
   left: -10px;
-  text-shadow: var(--before-shadow, 10px 0 cyan);
+  text-shadow: var(--before-shadow, 10px 0 rgb(9, 29, 83));
   animation: animate-glitch var(--before-duration, 2s) infinite linear alternate-reverse;
 }
 
