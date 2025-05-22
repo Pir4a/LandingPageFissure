@@ -19,7 +19,7 @@
   position: absolute;
   top: 0;
   color: #fff;
-  background-color: #000000;
+  background-color: rgba(35, 26, 83, 0.205);
   overflow: hidden;
   clip-path: inset(0 0 0 0);
 }

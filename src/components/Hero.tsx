@@ -2,7 +2,7 @@ import React from 'react'
 import qrcode from '../assets/qrcode.png'
 function Hero() {
   return (
-    <section className="w-full xl:pt-[20%] py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-b from-background to-muted  text-white">
+    <section className="w-full xl:pt-[15%] py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-b from-background to-muted  text-white">
           <div className=" w-3/4 mx-auto flex items-center justify-center x-4 md:px-6">
             <div className="flex xl:flex-row flex-col gap-8">
               <div className="flex flex-col justify-center space-y-4">
@@ -10,8 +10,11 @@ function Hero() {
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                     Your Complete Fitness Journey in One App
                   </h1>
-                  <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    Track your diet, monitor your workouts, and achieve your fitness goals with Fissure.
+                  <p className="max-w-[600px] text-muted-foreground md:text-3xl pt-12 tracking-widest">
+                    Follow your <span className=" text-[#818CF8] font-bold ">System.</span><br/>
+Achieve your <span className=" text-[#818CF8] font-bold ">Goals</span><br/>
+Keep your <span className="text-[#818CF8] font-bold">Identity.</span><br/>
+<span className='text-[#6366F1] font-bold'>Fissure.</span><br/>
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -30,14 +33,14 @@ function Hero() {
                 </div>
                 <div className="flex items-center gap-4 text-sm">
                   <div className="flex items-center gap-1">
-                    <span>Free 14-day trial</span>
+                    <span>Generous Free Tier </span>
                   </div>
                   <div className="flex items-center gap-1">
                     <span>No credit card required</span>
                   </div>
                 </div>
               </div>
-                <div className="relative flex justfiy-center items-center h-[450px] w-[300px]  rounded-xl shadow-2xl sm:w-[350px] md:h-[260px] md:w-[260px]">
+                <div className="relative flex justfiy-center items-center h-[450px] w-[300px]  rounded-xl shadow-2xl sm:w-[350px] md:h-[260px] md:w-[260px] mt-16">
                   <div className="relative w-[260px] h-[260px] rounded-xl overflow-hidden">
                     <div className="absolute brightness-125 inset-0 bg-gradient-to-r from-purple-900 via-indigo-900 to-blue-900 animate-pulse  rounded-xl"></div>
                     <div className="absolute inset-[3px] bg-background rounded-xl">
