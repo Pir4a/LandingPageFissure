@@ -16,7 +16,7 @@ function Features() {
             Everything you need to reach your fitness goals
           </h2>
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            FitnessFusion combines diet tracking and workout monitoring in one seamless experience.
+            Fissure combines diet tracking and workout monitoring in one seamless experience.
           </p>
         </div>
       </div>
@@ -24,10 +24,10 @@ function Features() {
         <img
           src={barCode}
         alt="Diet tracking features"
-          className="h-[550px] border-2 border-[#6366F1] w-[310px] overflow-hidden rounded-xl object-cover object-fit  lg:order-last"
+          className="h-[550px] hidden xl:block border-2 border-[#6366F1] w-[310px] overflow-hidden rounded-xl object-cover object-fit  lg:order-last"
         />
         <div className="flex flex-col justify-center space-y-4">
-          <div className="inline-block rounded-lg bg-[#818CF8]/20 px-3 py-1 text-sm text-[#6366F1] w-fit">
+          <div className="inline-block rounded-lg lg:mx-0 mx-auto bg-[#818CF8]/20 px-3 py-1 text-sm text-[#6366F1] w-fit">
             Diet Tracking
           </div>
           <h3 className="text-2xl font-bold">Nutrition Made Simple</h3>
@@ -79,7 +79,7 @@ function Features() {
       <div className="mx-auto flex max-w-5xl items-center justify-between
        gap-6 py-12 lg:grid-cols-2 lg:gap-12">
         <div className="flex flex-col justify-center space-y-4">
-          <div className="inline-block rounded-lg bg-[#818CF8]/20 px-3 py-1 text-sm text-[#6366F1] w-fit">
+          <div className="inline-block lg:mx-0 mx-auto rounded-lg bg-[#818CF8]/20 px-3 py-1 text-sm text-[#6366F1] w-fit">
             Workout Tracking
           </div>
           <h3 className="text-2xl font-bold">Train Smarter, Not Harder</h3>
@@ -122,9 +122,9 @@ function Features() {
           width={550}
           height={310}
           alt="Coming Soon !"
-          className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+          className="mx-auto hidden lg:block aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
         />
-      </div> <div className=" mx-auto flex max-w-5xl items-center justify-between gap-6 py-12 lg:grid-cols-2 lg:gap-12">
+      </div> <div className=" mx-auto text-center xl:text-left flex flex-col xl:flex-row max-w-5xl items-center justify-between gap-6 xl:py-12 lg:grid-cols-2 lg:gap-12">
         <div className="flex flex-col justify-center space-y-4">
           <div className="inline-block rounded-xl bg-[#818CF8]/20 px-12 py-5 text-4xl font-bold text-[#6366F1] w-fit">
           Download the App
