@@ -33,9 +33,9 @@ function Header() {
           </div>
         
           <ul className='text-white flex gap-12 text-xl font-bold'>
-            <li>Features</li>
-            <li>Faq</li>
-            <li>Pricing</li>
+            <li><a href='#features'>Features</a></li>
+            <li><a>Faq</a></li>
+            <li><a>Pricing</a></li>
           </ul>
           <a className='flex gap-4 cursor-pointer' href='#qr'>
             <img className='rounded-xl w-40 h-14 ' src={apple} />

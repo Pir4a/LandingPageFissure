@@ -2,7 +2,7 @@ import React from 'react'
 import AppScreans from './AppScreans'
 function Hero() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-b from-background to-muted  text-white">
+    <section className="w-full py-12 md:py-24 lg:pt-32 xl:pt-48 bg-gradient-to-b from-background to-muted  text-white">
           <div className=" w-3/4 mx-auto flex items-center justify-center x-4 md:px-6">
             <div className="flex xl:flex-row flex-col gap-8">
               <div className="flex flex-col justify-center space-y-4">
