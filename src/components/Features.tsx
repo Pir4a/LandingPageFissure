@@ -1,4 +1,3 @@
-import React from 'react'
 import ai from "../assets/2025-05-22-170511_hyprshot.png"
 import db from "../assets/db.png"
 import barCode from "../assets/2025-05-22-165237_hyprshot.png"
