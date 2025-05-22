@@ -1,4 +1,3 @@
-import React from 'react'
 import screenOne from "../assets/2025-05-22-155546_hyprshot.png"
 import screenTwo from "../assets/2025-05-22-155534_hyprshot.png"
 

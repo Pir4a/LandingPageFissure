@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import fissureIcon from '../assets/FissureIcon.png'
 import GlitchText from './TextAnimations/GlitchText/GlitchText'
 import apple from "../assets/2025-05-22-154459_hyprshot.png"

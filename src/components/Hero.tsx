@@ -1,4 +1,3 @@
-import React from 'react'
 import AppScreans from './AppScreans'
 import FuzzyText from './TextAnimations/FuzzyText/FuzzyText'
 function Hero() {

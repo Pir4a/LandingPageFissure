@@ -1,4 +1,3 @@
-import React from 'react'
 
 import qrcode from '../assets/qrcode.png'
 function QrCodeComponent() {
