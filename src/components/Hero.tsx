@@ -1,5 +1,6 @@
 import React from 'react'
 import AppScreans from './AppScreans'
+import FuzzyText from './TextAnimations/FuzzyText/FuzzyText'
 function Hero() {
   return (
     <section className="w-full py-12 md:py-24 lg:pt-32 xl:pt-48 bg-gradient-to-b from-background to-muted  text-white">
@@ -14,7 +15,7 @@ function Hero() {
                     Follow your <span className=" text-[#818CF8] font-bold ">System.</span><br/>
 Achieve your <span className=" text-[#818CF8] font-bold ">Goals</span><br/>
 Keep your <span className="text-[#818CF8] font-bold">Identity.</span><br/>
-<span className='text-[#6366F1] font-bold'>Fissure.</span><br/>
+<div className='py-3 pb-2 -ml-10'><FuzzyText enableHover={true}>Fissure.</FuzzyText></div>
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
