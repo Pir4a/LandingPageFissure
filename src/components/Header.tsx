@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import fissureIcon from '../assets/FissureIcon.png'
 import GlitchText from './TextAnimations/GlitchText/GlitchText'
+import apple from "../assets/2025-05-22-154459_hyprshot.png"
+import android from "../assets/2025-05-22-154509_hyprshot.png"
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -20,8 +22,8 @@ function Header() {
       <div className='flex h-16 items-center w-full justify-center'>
         <nav className={`flex items-center py-2 rounded px-8 justify-between gap-2 w-[80%] transition-all duration-300 ${
           isScrolled 
-            ? 'bg-background/30 border-[1px] backdrop-blur-md shadow-lgi ' 
-            : 'bg-transparent border-[1px]'
+            ? 'bg-background/30 border-[1px] border-[#6365f175] rounded-xl backdrop-blur-md shadow-lg ' 
+            : 'bg-transparent  border-[1px] border-[#00000000] rounded-xl'
         }`}>
           <div className='flex w-1/5 gap-6 justify-between items-center relative'>
             <div className='flex items-center gap-4 '>
@@ -30,11 +32,15 @@ function Header() {
             </div>
           </div>
         
-          <ul className='text-white flex gap-2'>
+          <ul className='text-white flex gap-12 text-xl font-bold'>
             <li>Features</li>
             <li>Faq</li>
             <li>Pricing</li>
           </ul>
+          <a className='flex gap-4 cursor-pointer' href='#qr'>
+            <img className='rounded-xl w-40 h-14 ' src={apple} />
+            <img className='rounded-xl h-14 w-40 ' src={android} />
+          </a>
         </nav>
       </div>
     </div>
