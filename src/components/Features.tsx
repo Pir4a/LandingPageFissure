@@ -1,6 +1,6 @@
 import ai from "../assets/2025-05-22-170511_hyprshot.png"
 import db from "../assets/db.png"
-import barCode from "../assets/2025-05-22-165237_hyprshot.png"
+import barCode from "../assets/barc.png"
 import planning from "../assets/2025-05-22-171511_hyprshot.png"
 import loupe from "../assets/icons8-loupe-100.png"
 import QrCodeComponent from './QrCodeComponent'
