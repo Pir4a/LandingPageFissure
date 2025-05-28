@@ -51,7 +51,7 @@ function Header() {
           {/* Desktop Navigation */}
           <ul className='hidden lg:flex text-white gap-12 text-xl font-bold'>
             <li><a href='#features'>Features</a></li>
-            <li><a>Faq</a></li>
+            <li><a></a></li>
             <li><a>Pricing</a></li>
           </ul>
 
